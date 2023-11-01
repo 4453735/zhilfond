@@ -1,0 +1,46 @@
+@charset "UTF-8";
+.emptyContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 0px 10px 10px 0px;
+  border-left: 1px solid #DEDEDD;
+  background: #FFF;
+}
+
+.fullContainer {
+  display: flex;
+  align-items: first; /* Выравнивание по вертикали */
+  max-width: 100%; /* Максимальная ширина блока, чтобы он не выходил за пределы контейнера */
+  margin: 30px 62px;
+}
+
+.fullContainer > div:first-child {
+  flex: 0 0 auto; /* Левый блок (с изображением) не будет растягиваться */
+  margin-right: 62px; /* Отступ между изображением и текстом */
+}
+
+.text {
+  flex: 1;
+}
+
+.text p {
+  font-size: 16px;
+  margin: 8px 0; /* Дополнительный отступ для абзацев в блоке с текстом */
+}
+
+.text h2 {
+  margin-top: 16px; /* Отступ для заголовка "О себе" */
+}
+
+.boldName {
+  color: #000;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4rem;
+}
+
+/*# sourceMappingURL=Main.module.css.map */

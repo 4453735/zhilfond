@@ -1,0 +1,29 @@
+.searchBlock {
+  margin-bottom: 20px;
+  padding: 0 27px;
+}
+
+.header {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4rem;
+  margin-top: 27px;
+}
+
+.input {
+  width: 85%;
+  height: .5rem;
+  padding: 16px;
+  align-items: center;
+
+  border-radius: 8px;
+  border: 1.5px solid var(--all-colors-gray-gray-200, #E9ECEF);
+  background: var(--all-colors-black-white-white, #FFF);
+
+  &:focus {
+    outline: none;
+  }
+}
+

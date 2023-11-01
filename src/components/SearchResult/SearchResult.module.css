@@ -1,0 +1,43 @@
+@charset "UTF-8";
+.container {
+  margin: 10px 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #FFF;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.image {
+  flex: 0 0 auto; /* Не растягивать левый блок */
+  width: 70px;
+  height: 70px;
+  margin-right: 20px; /* Расстояние между левым и правым блоком */
+  background: url("/public/img/no-image.png"), lightgray 20%/cover no-repeat;
+}
+
+.info {
+  flex: 1; /* Занимать всю доступную ширину */
+  max-width: 70%; /* Максимальная ширина правого блока, чтобы предотвратить наезжание */
+}
+
+/* Дополнительные стили по вашему усмотрению */
+.name {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.email {
+  font-family: "Montserrat", sans-serif;
+  color: #76787D;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 0px;
+}
+
+/*# sourceMappingURL=SearchResult.module.css.map */

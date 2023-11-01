@@ -1,0 +1,12 @@
+:root {
+  height: 1000px;
+}
+
+p {
+  color: #76787D;
+  font-family: 'Montserrat';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
